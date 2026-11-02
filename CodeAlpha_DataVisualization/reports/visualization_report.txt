@@ -1,0 +1,30 @@
+CODEALPHA TASK 3 - DATA VISUALIZATION
+Project: E-Commerce Books Data Visualization
+
+DATASET INFORMATION
+Total Books: 1000
+Total Columns: 6
+
+KEY STATISTICS
+Total Books: 1000
+Average Price: 35.07
+Minimum Price: 10.0
+Maximum Price: 59.99
+Median Price: 35.98
+Average Rating: 2.92
+Missing Values: 0
+
+VISUALIZATIONS CREATED
+1. Book Price Distribution
+2. Book Rating Distribution
+3. Top 10 Most Expensive Books
+4. Price Comparison by Rating
+5. Price and Rating Correlation Heatmap
+6. Interactive Visualizations
+7. Interactive Dashboard
+
+CONCLUSION
+The visualizations provide an overview of book prices,
+ratings and their relationship in the dataset.
+The interactive dashboard allows users to explore
+the data through charts and hover information.
