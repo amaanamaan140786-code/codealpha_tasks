@@ -1,0 +1,63 @@
+
+MACHINE LEARNING SENTIMENT ANALYSIS
+===================================
+
+DATASET
+-------
+Source: UCI Machine Learning Repository
+Dataset: Sentiment Labelled Sentences
+Training Records: 2982
+Training Split: 80%
+Testing Split: 20%
+
+TECHNOLOGY
+----------
+Python, Pandas, Scikit-learn
+TF-IDF Vectorizer
+Logistic Regression
+
+MODEL PERFORMANCE
+-----------------
+Accuracy: 78.89%
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    Negative       0.80      0.78      0.79       299
+    Positive       0.78      0.80      0.79       298
+
+    accuracy                           0.79       597
+   macro avg       0.79      0.79      0.79       597
+weighted avg       0.79      0.79      0.79       597
+
+
+CUSTOM CUSTOMER REVIEW ANALYSIS
+-------------------------------
+Total Customer Reviews: 30
+
+Positive: 13
+Negative: 9
+Neutral: 8
+
+Neutral classification rule:
+Maximum class probability below 0.60.
+
+IMPORTANT LIMITATIONS
+---------------------
+The UCI training dataset contains Positive and Negative labels.
+Neutral is assigned to customer predictions when the model's
+maximum class probability is below 0.60. It is not a separately
+trained third class.
+
+The training dataset contains movie, product and restaurant
+review sentences. Its performance may differ on other domains.
+
+CONCLUSION
+----------
+The project trained and evaluated a TF-IDF and Logistic
+Regression sentiment classification model. It also analyzed
+the provided customer reviews and generated reports and charts.
+
+===================================
+END OF REPORT
+===================================
