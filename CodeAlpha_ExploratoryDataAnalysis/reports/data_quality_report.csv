@@ -1,0 +1,7 @@
+Column,Data Type,Missing Values,Unique Values
+title,str,0,999
+price,float64,0,903
+rating,int64,0,5
+availability,str,0,1
+product_url,str,0,1000
+source_page,int64,0,50

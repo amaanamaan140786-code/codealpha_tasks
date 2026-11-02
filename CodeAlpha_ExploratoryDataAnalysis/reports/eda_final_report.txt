@@ -1,0 +1,31 @@
+CODEALPHA TASK 2 - EXPLORATORY DATA ANALYSIS
+Project: E-Commerce Books Data Analysis
+
+Total Records Analyzed: 1000
+Total Columns: 6
+Average Price: 35.07
+Minimum Price: 10.00
+Maximum Price: 59.99
+Median Price: 35.98
+
+MEANINGFUL QUESTIONS:
+1. What is the average price of books?
+2. Which books are the most expensive?
+3. Which rating is most common?
+4. How are book prices distributed?
+5. Is there a relationship between price and rating?
+6. Are there missing values or duplicate records?
+
+HYPOTHESIS TEST RESULT:
+Fail to reject H0: No statistically significant relationship was found.
+
+DATA ISSUES:
+Missing values: 0
+Duplicate records: 0
+
+KEY FINDINGS:
+The analysis examines book prices, ratings,
+data quality, distributions and relationships.
+
+All visualizations are saved in outputs/charts.
+Average Rating: 2.92
