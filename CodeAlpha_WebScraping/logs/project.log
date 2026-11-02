@@ -1,0 +1,116 @@
+2026-10-28 18:42:51,491 | INFO | Page 1: collected 20 products
+2026-10-28 18:42:53,005 | INFO | Page 2: collected 20 products
+2026-10-28 18:42:54,433 | INFO | Page 3: collected 20 products
+2026-10-28 18:42:55,924 | INFO | Page 4: collected 20 products
+2026-10-28 18:42:57,611 | INFO | Page 5: collected 20 products
+2026-10-28 18:42:59,291 | INFO | Page 6: collected 20 products
+2026-10-28 18:43:00,832 | INFO | Page 7: collected 20 products
+2026-10-28 18:43:02,228 | INFO | Page 8: collected 20 products
+2026-10-28 18:43:03,648 | INFO | Page 9: collected 20 products
+2026-10-28 18:43:05,174 | INFO | Page 10: collected 20 products
+2026-10-28 18:43:06,420 | INFO | Page 11: collected 20 products
+2026-10-28 18:43:07,933 | INFO | Page 12: collected 20 products
+2026-10-28 18:43:09,261 | INFO | Page 13: collected 20 products
+2026-10-28 18:43:10,489 | INFO | Page 14: collected 20 products
+2026-10-28 18:43:11,840 | INFO | Page 15: collected 20 products
+2026-10-28 18:43:13,390 | INFO | Page 16: collected 20 products
+2026-10-28 18:43:14,980 | INFO | Page 17: collected 20 products
+2026-10-28 18:43:16,582 | INFO | Page 18: collected 20 products
+2026-10-28 18:43:17,807 | INFO | Page 19: collected 20 products
+2026-10-28 18:43:20,152 | INFO | Page 20: collected 20 products
+2026-10-28 18:43:21,690 | INFO | Page 21: collected 20 products
+2026-10-28 18:43:23,466 | INFO | Page 22: collected 20 products
+2026-10-28 18:43:24,802 | INFO | Page 23: collected 20 products
+2026-10-28 18:43:26,780 | INFO | Page 24: collected 20 products
+2026-10-28 18:43:28,160 | INFO | Page 25: collected 20 products
+2026-10-28 18:43:29,547 | INFO | Page 26: collected 20 products
+2026-10-28 18:43:31,207 | INFO | Page 27: collected 20 products
+2026-10-28 18:43:33,420 | INFO | Page 28: collected 20 products
+2026-10-28 18:43:34,729 | INFO | Page 29: collected 20 products
+2026-10-28 18:43:35,922 | INFO | Page 30: collected 20 products
+2026-10-28 18:43:37,560 | INFO | Page 31: collected 20 products
+2026-10-28 18:43:39,149 | INFO | Page 32: collected 20 products
+2026-10-28 18:43:40,650 | INFO | Page 33: collected 20 products
+2026-10-28 18:43:42,265 | INFO | Page 34: collected 20 products
+2026-10-28 18:43:43,995 | INFO | Page 35: collected 20 products
+2026-10-28 18:43:45,628 | INFO | Page 36: collected 20 products
+2026-10-28 18:43:47,392 | INFO | Page 37: collected 20 products
+2026-10-28 18:43:49,084 | INFO | Page 38: collected 20 products
+2026-10-28 18:43:51,036 | INFO | Page 39: collected 20 products
+2026-10-28 18:43:53,023 | INFO | Page 40: collected 20 products
+2026-10-28 18:43:54,639 | INFO | Page 41: collected 20 products
+2026-10-28 18:43:56,036 | INFO | Page 42: collected 20 products
+2026-10-28 18:43:57,727 | INFO | Page 43: collected 20 products
+2026-10-28 18:43:59,893 | INFO | Page 44: collected 20 products
+2026-10-28 18:44:01,465 | INFO | Page 45: collected 20 products
+2026-10-28 18:44:03,125 | INFO | Page 46: collected 20 products
+2026-10-28 18:44:04,788 | INFO | Page 47: collected 20 products
+2026-10-28 18:44:06,708 | INFO | Page 48: collected 20 products
+2026-10-28 18:44:07,971 | INFO | Page 49: collected 20 products
+2026-10-28 18:44:10,334 | INFO | Page 50: collected 20 products
+2026-10-28 18:44:10,755 | INFO | Saved 1000 raw records to D:\CodeAlpha_WebScraping\data\raw\books_raw.csv
+2026-10-28 18:44:10,829 | INFO | Cleaning complete: 1000 records before, 0 after
+2026-10-28 18:44:10,830 | INFO | Cleaned data saved to D:\CodeAlpha_WebScraping\data\processed\books_cleaned.csv
+2026-10-28 18:44:10,832 | ERROR | Project failed: No cleaned book data is available for analysis.
+Traceback (most recent call last):
+  File "D:\CodeAlpha_WebScraping\main.py", line 37, in main
+    summary = analyze_books(clean_data)
+  File "D:\CodeAlpha_WebScraping\src\analyzer.py", line 18, in analyze_books
+    raise ValueError("No cleaned book data is available for analysis.")
+ValueError: No cleaned book data is available for analysis.
+2026-10-28 18:54:27,982 | INFO | Page 1: collected 20 products
+2026-10-28 18:54:29,660 | INFO | Page 2: collected 20 products
+2026-10-28 18:54:31,268 | INFO | Page 3: collected 20 products
+2026-10-28 18:54:33,118 | INFO | Page 4: collected 20 products
+2026-10-28 18:54:34,963 | INFO | Page 5: collected 20 products
+2026-10-28 18:54:36,864 | INFO | Page 6: collected 20 products
+2026-10-28 18:54:39,247 | INFO | Page 7: collected 20 products
+2026-10-28 18:54:41,552 | INFO | Page 8: collected 20 products
+2026-10-28 18:54:43,550 | INFO | Page 9: collected 20 products
+2026-10-28 18:54:45,992 | INFO | Page 10: collected 20 products
+2026-10-28 18:54:48,171 | INFO | Page 11: collected 20 products
+2026-10-28 18:54:50,371 | INFO | Page 12: collected 20 products
+2026-10-28 18:54:52,298 | INFO | Page 13: collected 20 products
+2026-10-28 18:54:53,849 | INFO | Page 14: collected 20 products
+2026-10-28 18:54:55,206 | INFO | Page 15: collected 20 products
+2026-10-28 18:54:56,794 | INFO | Page 16: collected 20 products
+2026-10-28 18:54:58,376 | INFO | Page 17: collected 20 products
+2026-10-28 18:54:59,957 | INFO | Page 18: collected 20 products
+2026-10-28 18:55:01,677 | INFO | Page 19: collected 20 products
+2026-10-28 18:55:03,301 | INFO | Page 20: collected 20 products
+2026-10-28 18:55:04,876 | INFO | Page 21: collected 20 products
+2026-10-28 18:55:06,442 | INFO | Page 22: collected 20 products
+2026-10-28 18:55:08,192 | INFO | Page 23: collected 20 products
+2026-10-28 18:55:10,341 | INFO | Page 24: collected 20 products
+2026-10-28 18:55:13,465 | INFO | Page 25: collected 20 products
+2026-10-28 18:55:16,329 | INFO | Page 26: collected 20 products
+2026-10-28 18:55:19,064 | INFO | Page 27: collected 20 products
+2026-10-28 18:55:21,584 | INFO | Page 28: collected 20 products
+2026-10-28 18:55:24,115 | INFO | Page 29: collected 20 products
+2026-10-28 18:55:26,368 | INFO | Page 30: collected 20 products
+2026-10-28 18:55:28,628 | INFO | Page 31: collected 20 products
+2026-10-28 18:55:31,430 | INFO | Page 32: collected 20 products
+2026-10-28 18:55:33,966 | INFO | Page 33: collected 20 products
+2026-10-28 18:55:36,105 | INFO | Page 34: collected 20 products
+2026-10-28 18:55:41,255 | INFO | Page 35: collected 20 products
+2026-10-28 18:55:44,830 | INFO | Page 36: collected 20 products
+2026-10-28 18:55:48,365 | INFO | Page 37: collected 20 products
+2026-10-28 18:55:52,558 | INFO | Page 38: collected 20 products
+2026-10-28 18:55:55,637 | INFO | Page 39: collected 20 products
+2026-10-28 18:55:58,304 | INFO | Page 40: collected 20 products
+2026-10-28 18:56:00,974 | INFO | Page 41: collected 20 products
+2026-10-28 18:56:03,149 | INFO | Page 42: collected 20 products
+2026-10-28 18:56:05,004 | INFO | Page 43: collected 20 products
+2026-10-28 18:56:06,931 | INFO | Page 44: collected 20 products
+2026-10-28 18:56:09,228 | INFO | Page 45: collected 20 products
+2026-10-28 18:56:10,582 | INFO | Page 46: collected 20 products
+2026-10-28 18:56:12,425 | INFO | Page 47: collected 20 products
+2026-10-28 18:56:14,370 | INFO | Page 48: collected 20 products
+2026-10-28 18:56:17,719 | INFO | Page 49: collected 20 products
+2026-10-28 18:56:19,956 | INFO | Page 50: collected 20 products
+2026-10-28 18:56:20,316 | INFO | Saved 1000 raw records to D:\CodeAlpha_WebScraping\data\raw\books_raw.csv
+2026-10-28 18:56:20,388 | INFO | Cleaning complete: 1000 records before, 1000 after
+2026-10-28 18:56:20,388 | INFO | Cleaned data saved to D:\CodeAlpha_WebScraping\data\processed\books_cleaned.csv
+2026-10-28 18:56:23,713 | INFO | Analysis summary: {'total_books': 1000, 'average_price': 35.07, 'minimum_price': 10.0, 'maximum_price': 59.99, 'average_rating': 2.92}
+2026-10-28 18:56:23,714 | INFO | Charts saved in D:\CodeAlpha_WebScraping\outputs\charts
+2026-10-28 18:56:23,715 | INFO | Excel report saved to D:\CodeAlpha_WebScraping\data\processed\books_analysis.xlsx
